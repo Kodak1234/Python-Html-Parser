@@ -5,7 +5,7 @@ A lightweight python library for parsing html tags
 
 #Sample html 
 
-m = "<p>Test paragraph</p> <li> Number one </li> <a href ="url"/>"
+m = "<p>Test paragraph</p> <li> Number one </li> <a href =\"url\"/>"
 
 p = HttpOption(m) #Create a HttpOption object
 
