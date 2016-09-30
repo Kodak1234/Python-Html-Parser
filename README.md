@@ -1,11 +1,8 @@
 # Python-Html-Parser
 A lightweight python library for parsing html tags
 
-Parsing a html file
-
 Sample html 
-
-#m = "<p>Test paragraph</p> <li> Number one </li> <a href =\"url\"/>"
+m = "<tag>Test paragraph</tag> <li> Number one </tag> <tag href ="url"/>"
 
 p = HttpOption(m) #Create a HttpOption object
 
