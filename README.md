@@ -4,15 +4,8 @@ A lightweight python library for parsing html tags
 #Parsing a html file
 
 #Sample html 
-m = "<li class=\"lih_div\"></li>n\
-				<li onclick=\"location.href='/signup'\" class=\"dd_su\">Sign Up </li>n\
-				<li onclick=\"location.href='/login'\" class=\"dd_lo\">Login </li>n\
-				<li class=\"lih_div\"></li><p>Hey Prodigy</p>n\
-				<li onclick=\"location.href='/api'\" class=\"lih_640\">API </li>n\
-				<li onclick=\"location.href='/faq'\" class=\"lih_640\">FAQ </li>n\
-				<li onclick=\"location.href='/tools'\" class=\"lih_640\">Tools </li>n\
-				<li onclick=\"location.href='/trends'\" class=\"lih_640\">Trends </li>n\
-				<li onclick=\"location.href='/archive'\" class=\"lih_640\">Archive</li>		"
+
+m = "<p>Test paragraph</p> <li> Number one </li> <a href ="url"/>"
 
 p = HttpOption(m) #Create a HttpOption object
 
