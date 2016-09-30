@@ -1,7 +1,6 @@
 # Python-Html-Parser
 A lightweight python library for parsing html tags
 
-Sample html 
 m = any html string
 
 p = HttpOption(m) #Create a HttpOption object
@@ -14,7 +13,7 @@ http.parse() #Call parse() to parse the html
 
 print(http.getResponse()) #Print the parsed html
 
-To parse only the elements inside a tag example  <a href="url"/> will return href = "url" after being parsed
+#To parse only the elements inside a tag example  <a href="url"/> will return href = "url" after being parsed
 p.parseTag("p").parseTag("a").parseTag("li").readInside(True) # call readInside() and pass True
 
 
