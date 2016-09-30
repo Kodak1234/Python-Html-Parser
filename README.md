@@ -2,7 +2,7 @@
 A lightweight python library for parsing html tags
 
 Sample html 
-m = "<tag>Test paragraph</tag> <li> Number one </tag> <tag href ="url"/>"
+m = any html string
 
 p = HttpOption(m) #Create a HttpOption object
 
