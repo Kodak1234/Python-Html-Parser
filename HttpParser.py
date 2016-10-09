@@ -131,7 +131,7 @@ class HttpParser(object):
         return self.response.strip()
 
     def __str__(self):
-        return response.strip()
+        return self.response.strip()
 
 
 
